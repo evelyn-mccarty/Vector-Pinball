@@ -1,3 +1,7 @@
+#### Grader note
+
+Build & testing information is located underneath the rest of the README.
+
 # Vector Pinball
 
 Vector Pinball is a pinball game for Android devices.
@@ -33,3 +37,9 @@ Also make a folder in "fastlane/metadata/android" with a folder named "**_lang_*
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="100">]([https://f-droid.org/packages/com.dozingcatsoftware.bouncy/])
 [<img src="https://user-images.githubusercontent.com/33793273/132640445-ee1c74c2-9330-4ba9-93f8-218acd52fab9.png">](https://play.google.com/store/apps/details?id=com.dozingcatsoftware.bouncy)
+
+## Testing information:
+
+In order to run these unit tests, the files must be placed in the same folder as the package, because many of the functions rely on package-scoped class functions to run as-intended. The program is run on Android Studio 8.1. 
+
+In order to run the unit tests that have been made as part of TP2, launch Android Studio, path to the file labeled GameStateTest.java, and run tests by pressing the green triangle next to each test, or next to the class name to test all tests in the class.
